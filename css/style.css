@@ -18,7 +18,8 @@ ul li:first-child {
     font-size: 4rem;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    padding: 0%
 }
 
 ul li:first-child:hover {
@@ -37,7 +38,10 @@ ul li:nth-child(even) {
     font-size: 2rem;
     color: #fff;
     position: relative;
-    left: -260px;
+    left: -275px;
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 
 li:nth-child(odd):hover+li:nth-child(even) {
